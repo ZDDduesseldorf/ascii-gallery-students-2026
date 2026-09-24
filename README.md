@@ -19,7 +19,7 @@ Nach der Übung kannst du:
 
 ## Deine Aufgabe
 
-Füge **ein Stück ASCII-Art** zur gemeinsamen Webseite hinzu.
+Füge **ein Stück ASCII-Art** zur gemeinsamen Webseite hinzu. Die Webseite siehtst du hier: https://zddduesseldorf.github.io/ascii-gallery-students-2026/
 
 ### 1. Issue erstellen
 
