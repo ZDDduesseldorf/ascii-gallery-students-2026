@@ -52,7 +52,7 @@ git switch -c ascii/florian-huber
 
 ### 4. `index.html` bearbeiten
 
-Suche in `index.html` den Abschnitt fuer den ersten Buchstaben deines GitHub-Namens:
+Suche in `index.html` den Abschnitt für den ersten Buchstaben deines GitHub-Namens:
 
 - A-F
 - G-L
@@ -73,6 +73,8 @@ Fuege direkt **oberhalb** des passenden Kommentars einen neuen Block ein:
 ```
 
 **Achtung:** Zeichen wie `<`, `>` und `&` haben in HTML eine besondere Bedeutung. Falls deine ASCII-Art diese Zeichen enthält, verwende gegebenenfalls `&lt;`, `&gt;` und `&amp;`.
+
+Es gibt im Internet auch haufenweise Ascii-Art-Generatoren, z.B. hier: https://texteditor.com/ascii-art/
 
 ### 5. Lokal kontrollieren
 
