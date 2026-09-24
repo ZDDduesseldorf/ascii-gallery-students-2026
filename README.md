@@ -1,0 +1,132 @@
+# ASCII Gallery Students 2026
+
+Interne Git/GitHub-Uebung für den Kurs **Software Engineering fuer Data Science**.
+
+Dieses Repository trainiert den **gemeinsamen Branch-Workflow**: Alle Studierenden haben Schreibrechte auf dasselbe Repository, aber Änderungen an `main` sollen ausschliesslich über Pull Requests erfolgen.
+
+## Lernziele
+
+Nach der Übung kannst du:
+
+- ein Issue erstellen und dir selbst zuweisen,
+- einen Feature-Branch erstellen,
+- sinnvolle Commits erstellen und pushen,
+- einen Pull Request oeffnen,
+- einen Pull Request einer anderen Person reviewen,
+- Review-Feedback in einem bestehenden Branch umsetzen,
+- einen Pull Request mergen,
+- optional einen einfachen Merge-Konflikt loesen.
+
+## Deine Aufgabe
+
+Füge **ein Stueck ASCII-Art** zur gemeinsamen Webseite hinzu.
+
+### 1. Issue erstellen
+
+Erstelle zuerst ein Issue, z. B.:
+
+> Add ASCII art by @my-user-name
+
+Weise das Issue dir selbst zu.
+
+### 2. Repository aktualisieren
+
+```bash
+git switch main
+git pull
+```
+
+### 3. Feature-Branch erstellen
+
+Verwende einen aussagekraeftigen Namen:
+
+```bash
+git switch -c ascii/<github-username>
+```
+
+Beispiel:
+
+```bash
+git switch -c ascii/florian-huber
+```
+
+### 4. `index.html` bearbeiten
+
+Suche in `index.html` den Abschnitt fuer den ersten Buchstaben deines GitHub-Namens:
+
+- A-F
+- G-L
+- M-R
+- S-Z
+
+Fuege direkt **oberhalb** des passenden Kommentars einen neuen Block ein:
+
+```html
+<article class="art-card">
+    <h3>@dein-github-name — Titel</h3>
+<pre>
+  /\_/\\
+ ( o.o )
+  > ^ <
+</pre>
+</article>
+```
+
+**Achtung:** Zeichen wie `<`, `>` und `&` haben in HTML eine besondere Bedeutung. Falls deine ASCII-Art diese Zeichen enthaelt, verwende gegebenenfalls `&lt;`, `&gt;` und `&amp;`.
+
+### 5. Lokal kontrollieren
+
+Du kannst die Seite direkt im Browser oeffnen oder einen kleinen lokalen Webserver starten:
+
+```bash
+python -m http.server 8000
+```
+
+Dann im Browser `http://localhost:8000` aufrufen.
+
+### 6. Commit + Push
+
+```bash
+git status
+git diff
+git add index.html
+git commit -m "Add ASCII art by <github-username>"
+git push -u origin ascii/<github-username>
+```
+
+### 7. Pull Request erstellen
+
+Erstelle auf GitHub einen Pull Request gegen `main`.
+
+Der PR soll:
+
+- dein Issue referenzieren (`Closes #...`),
+- kurz beschreiben, was du hinzugefuegt hast,
+- eine andere Person als Reviewer anfordern.
+
+### 8. Code Review
+
+Reviewe mindestens **einen Pull Request einer anderen Person**.
+
+Ein Review soll mehr enthalten als nur "sieht gut aus". Pruefe z. B.:
+
+- Ist die Aenderung im richtigen Abschnitt?
+- Wurde nur das veraendert, was fuer die Aufgabe noetig war?
+- Ist das HTML weiterhin gueltig/lesbar?
+- Wird die ASCII-Art korrekt dargestellt?
+
+Falls sinnvoll: `Request changes` verwenden und eine konkrete kleine Verbesserung anfordern.
+
+### 9. Feedback einarbeiten + mergen
+
+Falls du Feedback erhalten hast, passe deinen Branch an, committe und pushe erneut. Der bestehende Pull Request aktualisiert sich automatisch.
+
+Nach erfolgreichem Review kann der PR gemerged werden.
+
+## Optional: Merge-Conflict-Challenge
+
+Wenn Zeit bleibt, arbeitet paarweise mit `conflict-zone.txt`. Beide Personen erzeugen vom gleichen Ausgangsstand einen eigenen Branch und ersetzen dieselbe Zeile durch unterschiedliche Texte. Merge den ersten PR und versuche anschliessend den zweiten Branch zu aktualisieren und den Konflikt lokal zu loesen.
+
+## GitHub Pages
+
+Nach einem Merge nach `main` wird die Webseite automatisch per GitHub Pages deployed, sofern Pages fuer dieses Repository in der Organisation freigeschaltet ist.

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class ASCII Art Collection 2026</title>
+    <style>
+        :root {
+            color-scheme: dark;
+        }
+        body {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            background: #050505;
+            color: #f4f4f4;
+            text-align: center;
+        }
+        main {
+            width: min(1180px, 94vw);
+            margin: 0 auto;
+            padding: 32px 0 64px;
+        }
+        .hero {
+            overflow-x: auto;
+            padding: 24px 0 8px;
+        }
+        .hero pre {
+            display: inline-block;
+            text-align: left;
+            font-size: clamp(7px, 1vw, 14px);
+            line-height: 1.05;
+            color: #ffffff;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier New', monospace;
+        }
+        .tagline {
+            margin: 8px auto 36px;
+            max-width: 760px;
+            font-size: 1.25rem;
+        }
+        .instructions {
+            margin: 0 auto 36px;
+            max-width: 800px;
+            padding: 16px 20px;
+            border: 1px solid #555;
+            border-radius: 8px;
+            text-align: left;
+            color: #ddd;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 18px;
+            align-items: stretch;
+        }
+        .art-card {
+            border: 1px solid #444;
+            border-radius: 8px;
+            background: #0e0e0e;
+            padding: 14px;
+            text-align: left;
+            min-height: 180px;
+        }
+        .art-card h3 {
+            margin-top: 0;
+            color: #f6d6d6;
+        }
+        .art-card pre {
+            overflow-x: auto;
+            white-space: pre;
+            line-height: 1.05;
+        }
+        footer {
+            border-top: 1px solid #333;
+            margin-top: 48px;
+            padding-top: 22px;
+            color: #aaa;
+        }
+        a {
+            color: rgb(240, 209, 209);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="hero">
+<pre>
+  ______   ______   ______  ______ ______      ________ _______  _______                         __ __                                  ______   ______   ______   ______
+ /      \ /      \ /      \|      \      \    |        \       \|       \                       |  \  \                                /      \ /      \ /      \ /      \
+|  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\\▓▓▓▓▓▓\▓▓▓▓▓▓     \▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\      ______   ______ | ▓▓ ▓▓ ______   ______  __    __     |  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\
+| ▓▓__| ▓▓ ▓▓___\▓▓ ▓▓   \▓▓ | ▓▓   | ▓▓          /  ▓▓| ▓▓  | ▓▓ ▓▓  | ▓▓     /      \ |      \| ▓▓ ▓▓/      \ /      \|  \  |  \     \▓▓__| ▓▓ ▓▓▓\| ▓▓\▓▓__| ▓▓ ▓▓___\▓▓
+| ▓▓    ▓▓\▓▓    \| ▓▓       | ▓▓   | ▓▓         /  ▓▓ | ▓▓  | ▓▓ ▓▓  | ▓▓    |  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\ ▓▓  | ▓▓     /      ▓▓ ▓▓▓▓\ ▓▓/      ▓▓ ▓▓    \
+| ▓▓▓▓▓▓▓▓_\▓▓▓▓▓▓\ ▓▓   __  | ▓▓   | ▓▓        /  ▓▓  | ▓▓  | ▓▓ ▓▓  | ▓▓    | ▓▓  | ▓▓/      ▓▓ ▓▓ ▓▓ ▓▓    ▓▓ ▓▓   \▓▓ ▓▓  | ▓▓    |  ▓▓▓▓▓▓| ▓▓\▓▓\▓▓  ▓▓▓▓▓▓| ▓▓▓▓▓▓▓\
+| ▓▓  | ▓▓  \__| ▓▓ ▓▓__/  \_| ▓▓_ _| ▓▓_      /  ▓▓___| ▓▓__/ ▓▓ ▓▓__/ ▓▓    | ▓▓__| ▓▓  ▓▓▓▓▓▓▓ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓ ▓▓     | ▓▓__/ ▓▓    | ▓▓_____| ▓▓_\▓▓▓▓ ▓▓_____| ▓▓__/ ▓▓
+| ▓▓  | ▓▓\▓▓    ▓▓\▓▓    ▓▓   ▓▓ \   ▓▓ \    |  ▓▓    \ ▓▓    ▓▓ ▓▓    ▓▓     \▓▓    ▓▓\▓▓    ▓▓ ▓▓ ▓▓\▓▓     \ ▓▓      \▓▓    ▓▓    | ▓▓     \\▓▓  \▓▓▓ ▓▓     \\▓▓    ▓▓
+ \▓▓   \▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓▓▓▓▓\▓▓▓▓▓▓     \▓▓▓▓▓▓▓▓\▓▓▓▓▓▓▓ \▓▓▓▓▓▓▓      _\▓▓▓▓▓▓▓ \▓▓▓▓▓▓▓\▓▓\▓▓ \▓▓▓▓▓▓▓\▓▓      _\▓▓▓▓▓▓▓     \▓▓▓▓▓▓▓▓ \▓▓▓▓▓▓ \▓▓▓▓▓▓▓▓ \▓▓▓▓▓▓
+                                                                              |  \__| ▓▓                                |  \__| ▓▓
+                                                                               \▓▓    ▓▓                                 \▓▓    ▓▓
+                                                                                \▓▓▓▓▓▓                                   \▓▓▓▓▓▓
+</pre>
+    </div>
+
+    <h2 class="tagline">Master the art of code, one character at a time.</h2>
+
+    <div class="instructions">
+        <strong>Student exercise:</strong> Add exactly one ASCII-art contribution through a feature branch and pull request.
+        Add your card to the section matching the first letter of your GitHub username. Do not push directly to <code>main</code>.
+    </div>
+
+    <section class="gallery" aria-label="ASCII art gallery">
+
+        <!-- A-F: ADD NEW CARDS DIRECTLY ABOVE THIS COMMENT -->
+        <article class="art-card">
+            <h3>@example-a — Hello World</h3>
+<pre>
+  /\_/\\
+ ( o.o )
+  &gt; ^ &lt;
+</pre>
+        </article>
+
+        <!-- G-L: ADD NEW CARDS DIRECTLY ABOVE THIS COMMENT -->
+
+        <!-- M-R: ADD NEW CARDS DIRECTLY ABOVE THIS COMMENT -->
+
+        <!-- S-Z: ADD NEW CARDS DIRECTLY ABOVE THIS COMMENT -->
+
+    </section>
+
+    <footer>
+        <p>Created with Natural Intelligence at HSD, 2026.</p>
+        <p><a href="https://github.com/ZDDduesseldorf/ascii-gallery-students-2026">GitHub Repository for student exercise</a></p>
+    </footer>
+</main>
+</body>
+</html>

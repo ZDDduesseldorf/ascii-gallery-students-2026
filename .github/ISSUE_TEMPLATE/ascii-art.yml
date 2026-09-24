@@ -1,0 +1,27 @@
+name: ASCII art contribution
+description: Plan one student contribution to the shared gallery.
+title: "Add ASCII art by @"
+body:
+  - type: input
+    id: github_user
+    attributes:
+      label: GitHub username
+      placeholder: octocat
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Working title of the artwork
+      placeholder: Space cat
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Ready to start?
+      options:
+        - label: I will work on a separate branch.
+          required: true
+        - label: I will open a pull request and request a peer review.
+          required: true
