@@ -78,13 +78,7 @@ Es gibt im Internet auch haufenweise Ascii-Art-Generatoren, z.B. hier: https://t
 
 ### 5. Lokal kontrollieren
 
-Du kannst die Seite direkt im Browser öffnen oder einen kleinen lokalen Webserver starten:
-
-```bash
-python -m http.server 8000
-```
-
-Dann im Browser `http://localhost:8000` aufrufen.
+Du kannst die Seite direkt im Browser öffnen (also `index.html`).
 
 ### 6. Commit + Push
 
