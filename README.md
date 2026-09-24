@@ -76,6 +76,13 @@ Fuege direkt **oberhalb** des passenden Kommentars einen neuen Block ein:
 
 Es gibt im Internet auch haufenweise Ascii-Art-Generatoren, z.B. hier: https://texteditor.com/ascii-art/
 
+Sowohl dieses Repository als auch die daraus erstellte Webseite sind aus dem Netz frei erreichbar. Für alle.
+Darum bitte:
+
+- maximal ca. 20 Zeilen,
+- keine beleidigenden oder diskriminierenden Inhalte,
+- keine sensiblen, personenbezogenen Daten
+
 ### 5. Lokal kontrollieren
 
 Du kannst die Seite direkt im Browser öffnen (also `index.html`).
