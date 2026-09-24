@@ -1,6 +1,6 @@
 # ASCII Gallery Students 2026
 
-Interne Git/GitHub-Uebung für den Kurs **Software Engineering fuer Data Science**.
+Interne Git/GitHub-Übung für den Kurs **Software Engineering für Data Science**.
 
 Dieses Repository trainiert den **gemeinsamen Branch-Workflow**: Alle Studierenden haben Schreibrechte auf dasselbe Repository, aber Änderungen an `main` sollen ausschliesslich über Pull Requests erfolgen.
 
@@ -11,15 +11,15 @@ Nach der Übung kannst du:
 - ein Issue erstellen und dir selbst zuweisen,
 - einen Feature-Branch erstellen,
 - sinnvolle Commits erstellen und pushen,
-- einen Pull Request oeffnen,
+- einen Pull Request öffnen,
 - einen Pull Request einer anderen Person reviewen,
 - Review-Feedback in einem bestehenden Branch umsetzen,
 - einen Pull Request mergen,
-- optional einen einfachen Merge-Konflikt loesen.
+- optional einen einfachen Merge-Konflikt lösen.
 
 ## Deine Aufgabe
 
-Füge **ein Stueck ASCII-Art** zur gemeinsamen Webseite hinzu.
+Füge **ein Stück ASCII-Art** zur gemeinsamen Webseite hinzu.
 
 ### 1. Issue erstellen
 
@@ -38,7 +38,7 @@ git pull
 
 ### 3. Feature-Branch erstellen
 
-Verwende einen aussagekraeftigen Namen:
+Verwende einen aussagekräftigen Namen:
 
 ```bash
 git switch -c ascii/<github-username>
@@ -72,11 +72,11 @@ Fuege direkt **oberhalb** des passenden Kommentars einen neuen Block ein:
 </article>
 ```
 
-**Achtung:** Zeichen wie `<`, `>` und `&` haben in HTML eine besondere Bedeutung. Falls deine ASCII-Art diese Zeichen enthaelt, verwende gegebenenfalls `&lt;`, `&gt;` und `&amp;`.
+**Achtung:** Zeichen wie `<`, `>` und `&` haben in HTML eine besondere Bedeutung. Falls deine ASCII-Art diese Zeichen enthält, verwende gegebenenfalls `&lt;`, `&gt;` und `&amp;`.
 
 ### 5. Lokal kontrollieren
 
-Du kannst die Seite direkt im Browser oeffnen oder einen kleinen lokalen Webserver starten:
+Du kannst die Seite direkt im Browser öffnen oder einen kleinen lokalen Webserver starten:
 
 ```bash
 python -m http.server 8000
@@ -101,7 +101,7 @@ Erstelle auf GitHub einen Pull Request gegen `main`.
 Der PR soll:
 
 - dein Issue referenzieren (`Closes #...`),
-- kurz beschreiben, was du hinzugefuegt hast,
+- kurz beschreiben, was du hinzugefügt hast,
 - eine andere Person als Reviewer anfordern.
 
 ### 8. Code Review
@@ -110,9 +110,9 @@ Reviewe mindestens **einen Pull Request einer anderen Person**.
 
 Ein Review soll mehr enthalten als nur "sieht gut aus". Pruefe z. B.:
 
-- Ist die Aenderung im richtigen Abschnitt?
-- Wurde nur das veraendert, was fuer die Aufgabe noetig war?
-- Ist das HTML weiterhin gueltig/lesbar?
+- Ist die Änderung im richtigen Abschnitt?
+- Wurde nur das verändert, was für die Aufgabe nötig war?
+- Ist das HTML weiterhin gültig/lesbar?
 - Wird die ASCII-Art korrekt dargestellt?
 
 Falls sinnvoll: `Request changes` verwenden und eine konkrete kleine Verbesserung anfordern.
@@ -125,8 +125,8 @@ Nach erfolgreichem Review kann der PR gemerged werden.
 
 ## Optional: Merge-Conflict-Challenge
 
-Wenn Zeit bleibt, arbeitet paarweise mit `conflict-zone.txt`. Beide Personen erzeugen vom gleichen Ausgangsstand einen eigenen Branch und ersetzen dieselbe Zeile durch unterschiedliche Texte. Merge den ersten PR und versuche anschliessend den zweiten Branch zu aktualisieren und den Konflikt lokal zu loesen.
+Wenn Zeit bleibt, arbeitet paarweise mit `conflict-zone.txt`. Beide Personen erzeugen vom gleichen Ausgangsstand einen eigenen Branch und ersetzen dieselbe Zeile durch unterschiedliche Texte. Merge den ersten PR und versuche anschliessend den zweiten Branch zu aktualisieren und den Konflikt lokal zu lösen.
 
 ## GitHub Pages
 
-Nach einem Merge nach `main` wird die Webseite automatisch per GitHub Pages deployed, sofern Pages fuer dieses Repository in der Organisation freigeschaltet ist.
+Nach einem Merge nach `main` wird die Webseite automatisch per GitHub Pages deployed, sofern Pages für dieses Repository in der Organisation freigeschaltet ist.
