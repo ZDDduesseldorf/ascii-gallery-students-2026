@@ -1,4 +1,4 @@
-# ASCII Gallery Students 2026
+# ASCII Gallery Students 2026 (Exercise level 1)
 
 Interne Git/GitHub-Übung für den Kurs **Software Engineering für Data Science**.
 
