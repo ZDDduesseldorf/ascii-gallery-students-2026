@@ -93,6 +93,9 @@ Du kannst die Seite direkt im Browser öffnen (also `index.html`).
 
 ### 6. Commit + Push
 
+Wenn die Änderung so wie gewünscht dargestellt wird (Schritt 5), kann sie offiziell hinzugefügt (="committed") werden.
+Dazu im Terminal einmal die folgenden Schritte durchgehen:
+
 ```bash
 git status
 git diff
