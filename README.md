@@ -19,7 +19,7 @@ Nach der Übung kannst du:
 
 ## Deine Aufgabe
 
-Füge **ein Stück ASCII-Art** zur gemeinsamen Webseite hinzu. Die Webseite siehtst du hier: https://zddduesseldorf.github.io/ascii-gallery-students-2026/
+Füge **ein Stück ASCII-Art** zur gemeinsamen Webseite hinzu. Die Webseite siehst du hier: https://zddduesseldorf.github.io/ascii-gallery-students-2026/
 
 ### 1. Issue erstellen
 
@@ -59,7 +59,7 @@ Suche in `index.html` den Abschnitt für den ersten Buchstaben deines GitHub-Nam
 - M-R
 - S-Z
 
-Fuege direkt **oberhalb** des passenden Kommentars einen neuen Block ein:
+Füge direkt **oberhalb** des passenden Kommentars einen neuen Block ein und platziere darin deine ASCII-Art. Hier ein Beispiel:
 
 ```html
 <article class="art-card">
@@ -111,7 +111,7 @@ Der PR soll:
 
 Reviewe mindestens **einen Pull Request einer anderen Person**.
 
-Ein Review soll mehr enthalten als nur "sieht gut aus". Pruefe z. B.:
+Ein Review soll mehr enthalten als nur "sieht gut aus". Prüfe z. B.:
 
 - Ist die Änderung im richtigen Abschnitt?
 - Wurde nur das verändert, was für die Aufgabe nötig war?
