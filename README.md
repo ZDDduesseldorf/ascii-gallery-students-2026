@@ -2,7 +2,9 @@
 
 Interne Git/GitHub-Übung für den Kurs **Software Engineering für Data Science**.
 
-Dieses Repository trainiert den **gemeinsamen Branch-Workflow**: Alle Studierenden haben Schreibrechte auf dasselbe Repository, aber Änderungen an `main` sollen ausschliesslich über Pull Requests erfolgen.
+Dieses Repository trainiert den **gemeinsamen Branch-Workflow**: Alle Studierenden haben Schreibrechte auf dasselbe Repository, arbeiten aber in eigenen Branches.  Änderungen am `main`-Branch erfolgen dann ausschliesslich über Pull Requests. 
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9e7e9a5e-92de-4ad3-9d01-430d27bf8d14" />
 
 ## Lernziele
 
